@@ -1,43 +1,66 @@
 import React from "react";
 
 const TermsOfService = () => (
-  <main style={{ maxWidth: 700, margin: "2rem auto", padding: "2rem 1.5rem", fontFamily: 'system-ui, sans-serif', background: '#fff', borderRadius: 12, boxShadow: '0 2px 12px rgba(0,0,0,0.06)' }}>
-    <h1 style={{ fontSize: '2.2rem', marginBottom: 16 }}>Terms of Service</h1>
-    <p style={{ fontSize: '1.1rem', color: '#444' }}>
-      Welcome to Chewmate! Please review these Terms of Service carefully before using our application.
+  <main
+    style={{
+      maxWidth: 720,
+      margin: "3rem auto",
+      padding: "2rem",
+      fontFamily: "system-ui, sans-serif",
+      background: "#ffffff",
+      borderRadius: "1rem",
+      boxShadow: "0 4px 16px rgba(0, 0, 0, 0.05)",
+      lineHeight: 1.6,
+      color: "#2e2e2e",
+    }}
+  >
+    <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem", fontWeight: 700 }}>
+      Terms of Service
+    </h1>
+    <p style={{ fontSize: "1.125rem", color: "#444", marginBottom: "2rem" }}>
+      Welcome to Chewmate. By using our app, you agree to the following terms. Please read them carefully.
     </p>
-    <section style={{ marginTop: 32 }}>
-      <h2>1. Local Data Storage</h2>
+
+    <section style={{ marginBottom: "2rem" }}>
+      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>1. Local Data Storage</h2>
       <p>
-        All information you enter or generate in Chewmate is stored <strong>locally</strong> on your device. We do not use cloud storage or transmit your data to any external servers. You are responsible for backing up your data if needed.
+        All data entered into Chewmate is stored <strong>locally</strong> on your device. We do not use cloud storage, external servers, or transmit your data elsewhere. You are solely responsible for backing up your data and ensuring your device's security.
       </p>
     </section>
-    <section style={{ marginTop: 24 }}>
-      <h2>2. Your Responsibilities</h2>
-      <ul style={{ paddingLeft: 24, color: '#444' }}>
-        <li>You are responsible for the accuracy and security of the data you provide.</li>
-        <li>Chewmate is not liable for any data loss due to device issues, deletion, or misuse.</li>
+
+    <section style={{ marginBottom: "2rem" }}>
+      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>2. User Responsibilities</h2>
+      <ul style={{ paddingLeft: "1.5rem", color: "#444", marginTop: "0.5rem" }}>
+        <li style={{ marginBottom: "0.5rem" }}>
+          You are responsible for the accuracy and integrity of the data you provide or generate.
+        </li>
+        <li>
+          Chewmate is not liable for any data loss due to device issues, deletion, or misuse.
+        </li>
       </ul>
     </section>
-    <section style={{ marginTop: 24 }}>
-      <h2>3. No Warranty</h2>
+
+    <section style={{ marginBottom: "2rem" }}>
+      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>3. No Warranty</h2>
       <p>
-        Chewmate is provided &quot;as is&quot; without warranties of any kind. We do not guarantee uninterrupted or error-free operation.
+        Chewmate is provided “as is” without any warranties, express or implied. We do not guarantee the app will be uninterrupted, secure, or error-free.
       </p>
     </section>
-    <section style={{ marginTop: 24 }}>
-      <h2>4. Updates to Terms</h2>
+
+    <section style={{ marginBottom: "2rem" }}>
+      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>4. Updates to Terms</h2>
       <p>
-        We may update these Terms of Service periodically. Continued use of Chewmate after changes means you accept the revised terms.
+        We may update these Terms of Service at any time. Continued use of Chewmate after changes are made constitutes acceptance of the new terms.
       </p>
     </section>
-    <section style={{ marginTop: 24 }}>
-      <h2>5. Contact Us</h2>
+
+    <section>
+      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>5. Contact</h2>
       <p>
-        If you have questions about these terms, please contact the Chewmate team.
+        If you have any questions about these terms, reach out to the Chewmate team.
       </p>
     </section>
   </main>
 );
 
-export default TermsOfService; 
+export default TermsOfService;
