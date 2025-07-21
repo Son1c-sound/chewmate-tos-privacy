@@ -18,7 +18,7 @@ const TermsOfService = () => (
     </ul>
     <h2>3. No Warranty</h2>
     <p>
-      Chewmate is provided "as is" without any warranties, express or implied. We do not guarantee the app will be error-free or uninterrupted.
+      Chewmate is provided &quot;as is&quot; without any warranties, express or implied. We do not guarantee the app will be error-free or uninterrupted.
     </p>
     <h2>4. Changes to Terms</h2>
     <p>
