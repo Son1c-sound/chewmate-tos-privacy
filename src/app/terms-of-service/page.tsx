@@ -9,55 +9,76 @@ const TermsOfService = () => (
       fontFamily: "system-ui, sans-serif",
       background: "#ffffff",
       borderRadius: "1rem",
-      boxShadow: "0 4px 16px rgba(0, 0, 0, 0.05)",
       lineHeight: 1.6,
-      color: "#2e2e2e",
+      color: "#000000",
     }}
   >
-    <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem", fontWeight: 700 }}>
+    <h1 style={{ fontSize: "2.5rem", fontWeight: 700, marginBottom: "1rem" }}>
       Terms of Service
     </h1>
-    <p style={{ fontSize: "1.125rem", color: "#444", marginBottom: "2rem" }}>
-      Welcome to Chewmate. By using our app, you agree to the following terms. Please read them carefully.
+    <p style={{ fontSize: "1.125rem", marginBottom: "2rem" }}>
+      By using Chewmate, you agree to the terms outlined below. Please review them carefully before continuing to use the app.
     </p>
 
     <section style={{ marginBottom: "2rem" }}>
-      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>1. Local Data Storage</h2>
+      <h2 style={{ fontSize: "1.5rem", fontWeight: 600, marginBottom: "0.5rem" }}>
+        1. Data Storage
+      </h2>
       <p>
-        All data entered into Chewmate is stored <strong>locally</strong> on your device. We do not use cloud storage, external servers, or transmit your data elsewhere. You are solely responsible for backing up your data and ensuring your device's security.
+        Chewmate stores all data <strong>locally</strong> on your device. Your food logs, meal tracking history, and any associated data never leave your phone. We do not collect, sync, or transmit personal data to external servers or third parties.
       </p>
     </section>
 
     <section style={{ marginBottom: "2rem" }}>
-      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>2. User Responsibilities</h2>
-      <ul style={{ paddingLeft: "1.5rem", color: "#444", marginTop: "0.5rem" }}>
+      <h2 style={{ fontSize: "1.5rem", fontWeight: 600, marginBottom: "0.5rem" }}>
+        2. User Responsibility
+      </h2>
+      <ul style={{ paddingLeft: "1.5rem", listStyle: "disc", marginTop: "0.5rem" }}>
         <li style={{ marginBottom: "0.5rem" }}>
-          You are responsible for the accuracy and integrity of the data you provide or generate.
+          You are solely responsible for the accuracy of the data you input into Chewmate.
+        </li>
+        <li style={{ marginBottom: "0.5rem" }}>
+          Chewmate is not liable for any data loss resulting from deletion, app uninstallation, device issues, or system resets.
         </li>
         <li>
-          Chewmate is not liable for any data loss due to device issues, deletion, or misuse.
+          You are encouraged to manually back up your data if your device or operating system supports it.
         </li>
       </ul>
     </section>
 
     <section style={{ marginBottom: "2rem" }}>
-      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>3. No Warranty</h2>
+      <h2 style={{ fontSize: "1.5rem", fontWeight: 600, marginBottom: "0.5rem" }}>
+        3. No Medical Advice
+      </h2>
       <p>
-        Chewmate is provided “as is” without any warranties, express or implied. We do not guarantee the app will be uninterrupted, secure, or error-free.
+        Chewmate is intended for informational and personal tracking purposes only. It does not provide medical or dietary advice. Always consult a qualified healthcare provider before making changes to your nutrition or lifestyle.
       </p>
     </section>
 
     <section style={{ marginBottom: "2rem" }}>
-      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>4. Updates to Terms</h2>
+      <h2 style={{ fontSize: "1.5rem", fontWeight: 600, marginBottom: "0.5rem" }}>
+        4. No Warranty
+      </h2>
       <p>
-        We may update these Terms of Service at any time. Continued use of Chewmate after changes are made constitutes acceptance of the new terms.
+        Chewmate is provided “as is.” We make no guarantees regarding availability, accuracy, or performance. Use of the app is at your own risk.
+      </p>
+    </section>
+
+    <section style={{ marginBottom: "2rem" }}>
+      <h2 style={{ fontSize: "1.5rem", fontWeight: 600, marginBottom: "0.5rem" }}>
+        5. Changes to Terms
+      </h2>
+      <p>
+        We reserve the right to modify these Terms of Service at any time. Continued use of the app after changes indicates your acceptance of the revised terms.
       </p>
     </section>
 
     <section>
-      <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>5. Contact</h2>
+      <h2 style={{ fontSize: "1.5rem", fontWeight: 600, marginBottom: "0.5rem" }}>
+        6. Contact Us
+      </h2>
       <p>
-        If you have any questions about these terms, reach out to the Chewmate team.
+        For questions or concerns about these terms, please contact the Chewmate team at [your-support-email@example.com].
       </p>
     </section>
   </main>
