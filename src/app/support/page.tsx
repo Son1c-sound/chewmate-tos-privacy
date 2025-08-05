@@ -35,7 +35,7 @@ const Support = () => (
     </h1>
     
     <p style={{ fontSize: "1.125rem", marginBottom: "3rem", color: "#666" }}>
-      Need help with ChewMate? We're here to assist you with any questions or issues.
+      Need help with ChewMate? We&apos;re here to assist you with any questions or issues.
     </p>
 
     <section style={{ marginBottom: "3rem" }}>
@@ -155,7 +155,7 @@ const Support = () => (
           Is my data secure?
         </h3>
         <p>
-          Yes! All your data is stored locally on your device. We don't collect or store any personal information on our servers.
+          Yes! All your data is stored locally on your device. We don&apos;t collect or store any personal information on our servers.
         </p>
       </div>
 
@@ -164,7 +164,7 @@ const Support = () => (
           Can I sync across devices?
         </h3>
         <p>
-          Currently, ChewMate stores data locally on each device. We're working on cloud sync features for future updates.
+          Currently, ChewMate stores data locally on each device. We&apos;re working on cloud sync features for future updates.
         </p>
       </div>
     </section>
