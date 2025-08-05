@@ -146,7 +146,7 @@ const Support = () => (
           How do I track my calories?
         </h3>
         <p>
-          Simply tap the "+" button to add food items. You can search our database, scan barcodes, or manually enter nutritional information.
+          Simply tap the + button to add food items. You can search our database, scan barcodes, or manually enter nutritional information.
         </p>
       </div>
 
